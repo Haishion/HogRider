@@ -9,7 +9,7 @@
 3. Results can be found in “pig_chase_HogRider.json”
 4. If the program is aborted due to Minecraft error with TypeNone state transferred in. Please retry “python pig_chase_eval_HogRider.py”.
 
-## Approach
+## Approach ([watch our vedio from YouTube] https://youtu.be/Ho7GZa3Klcc)
 
 We view the challenge task as an ad-hoc team collaboration problem, where a set of agents need to collaborate without pre-coordination [1]. In such a scenario, agents must have an estimation of other agents’ behaviors and adapt its own strategies. Our approach mainly consists of two parts: (1) agent type recognition and (2) two-step decision-making based on situation evaluation.
 
@@ -19,8 +19,6 @@ We view the challenge task as an ad-hoc team collaboration problem, where a set 
 
 After evaluating the current situation, our agent will first decide whether to collaborate with the Challenge agent or just quit the game. If the expected reward of collaboration is negative, our agent would move to the nearest exits along the shortest path. Otherwise, our agent would move to a destination position along the shortest path, with consideration of the other agent’ s destination. 
      
-![Introduction of HogRider](HogRider.mp4?raw=true "Introduction of HogRider")
-
 ## Result 
 
 HogRider is tested against ChallengeAgent for over 10 times and each time 100 episodes. The per-step mean score varies from 1.8 to 2.2 and per-episode score is about 14. HogRider judges the type of the other agent with accuracy higher than 90%.
