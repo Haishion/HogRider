@@ -9,8 +9,8 @@
 3. Results can be found in “pig_chase_HogRider.json”
 4. If the program is aborted due to Minecraft error with TypeNone state transferred in. Please retry “python pig_chase_eval_HogRider.py”.
 
-## Approach ([watch our vedio from YouTube] https://youtu.be/Ho7GZa3Klcc)
-
+## Approach 
+                                    [Watch our vedio on YouTube for more details](https://youtu.be/Ho7GZa3Klcc)
 We view the challenge task as an ad-hoc team collaboration problem, where a set of agents need to collaborate without pre-coordination [1]. In such a scenario, agents must have an estimation of other agents’ behaviors and adapt its own strategies. Our approach mainly consists of two parts: (1) agent type recognition and (2) two-step decision-making based on situation evaluation.
 
 1. In order to recognize the type of the Challenge agent, our agent maintains a belief of the type of the Challenge agent and updates the belief every time receiving a new observation using Bayes rule. We denote the two types of the Challenge agent as θ_1=random,θ_2=focused. The initial belief is p(θ_1 )=0.25,p(θ_2 )=0.75 and the belief update rule is p(θ_i│a)=(p(a│θ_i )p(θ_i))/(p(a)), where prior probability p(a│θ_i ) is computed based on the agent’s current direction and action policies (i.e., random or Astar). 
