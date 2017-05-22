@@ -1,5 +1,7 @@
 # HogRider -- Malmo Collaborative AI Challenge
 
+![Screenshot of HogRider](HogRider.png?raw=true "Screenshot of HogRider")
+
 ## How to run HogRider agent
 
 1. Download HogRiderAgent.py and pig_chase_eval_HogRider.py and put them into the default pig_chase folder.
