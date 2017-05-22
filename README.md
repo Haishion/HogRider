@@ -19,6 +19,8 @@ We view the challenge task as an ad-hoc team collaboration problem, where a set 
 
 After evaluating the current situation, our agent will first decide whether to collaborate with the Challenge agent or just quit the game. If the expected reward of collaboration is negative, our agent would move to the nearest exits along the shortest path. Otherwise, our agent would move to a destination position along the shortest path, with consideration of the other agent’ s destination. 
      
+![Introduction of HogRider](HogRider.mp4?raw=true "Introduction of HogRider")
+
 ## Result 
 
 HogRider is tested against ChallengeAgent for over 10 times and each time 100 episodes. The per-step mean score varies from 1.8 to 2.2 and per-episode score is about 14. HogRider judges the type of the other agent with accuracy higher than 90%.
