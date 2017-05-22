@@ -68,10 +68,6 @@ class PigChaseEvaluator(object):
         metrics['experimentname'] = experiment_name
 
         try:
-##            filepath = abspath(filepath)
-##            parent = join(pardir, filepath)
-##            if not exists(parent):
-##                makedirs(parent)
 
             with open(filepath, 'w') as f_out:
                 dump(metrics, f_out)
