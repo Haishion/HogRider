@@ -4,7 +4,7 @@
 
 ## How to run HogRider agent
 
-1. Download the files in this folder and put them into the default pig_chase folder.
+1. Download the files in this folder and put them into the default ai_challenge/pig_chase folder. [Install the platforam follwing instructions on this page.]( https://github.com/Microsoft/malmo-challenge)
 2. Use command “python pig_chase_eval_HogRider.py” to run HogRider V.S. ChallengeAgent. Note that it’s necessary to specify PigChaseSymbolicStateBuilder for HogRider.
 3. Results can be found in “pig_chase_HogRider.json”
 4. If the program is aborted due to Minecraft error with TypeNone state transferred in. Please retry “python pig_chase_eval_HogRider.py”.
