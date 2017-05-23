@@ -1,6 +1,6 @@
 # HogRider -- Malmo Collaborative AI Challenge
 
-Teammember: Xiong, Yanhai, Zhao, Mengchen and Chen, Haipeng from AMI, Nanyang Technological University
+    Team member: Xiong, Yanhai, Zhao, Mengchen and Chen, Haipeng from AMI, Nanyang Technological University
 
 ![Screenshot of HogRider](HogRider.png?raw=true "Screenshot of HogRider")
 
@@ -30,5 +30,5 @@ HogRider is tested against ChallengeAgent for over 10 times and each time 100 ep
 ## Reference
 
 [1] Stone, Peter, Gal A. Kaminka, Sarit Kraus, and Jeffrey S. Rosenschein. "Ad Hoc Autonomous Agent Teams: Collaboration without Pre-Coordination." In AAAI. 2010.
-
+ 
 
