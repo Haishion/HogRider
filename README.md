@@ -1,5 +1,7 @@
 # HogRider -- Malmo Collaborative AI Challenge
 
+Teammember: Xiong, Yanhai, Zhao, Mengchen and Chen, Haipeng from AMI, Nanyang Technological University
+
 ![Screenshot of HogRider](HogRider.png?raw=true "Screenshot of HogRider")
 
 ## How to run HogRider agent
