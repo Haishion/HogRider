@@ -1,6 +1,6 @@
 # HogRider -- Malmo Collaborative AI Challenge
 
-    Team member: Xiong, Yanhai, Zhao, Mengchen and Chen, Haipeng from AMI Research Group, Nanyang Technological University
+  -- Team member: Xiong, Yanhai, Zhao, Mengchen and Chen, Haipeng from AMI Research Group, Nanyang Technological University
 
 ![Screenshot of HogRider](HogRider.png?raw=true "Screenshot of HogRider")
 
