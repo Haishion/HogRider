@@ -1,4 +1,4 @@
-# HogRider -- Malmo Collaborative AI Challenge
+# HogRider -- Malmo Collaborative AI Challenge 2017
 
     Team member: 
         Xiong, Yanhai, Zhao, Mengchen and Chen, Haipeng 
