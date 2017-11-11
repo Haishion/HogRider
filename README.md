@@ -6,10 +6,6 @@
 
 ![Screenshot of HogRider](HogRider.png?raw=true "Screenshot of HogRider")
 
-## Submission list
-1. A short [video](HogRider.mp4) that shows off HogRider Agent, which can also be watched on [YouTube](https://youtu.be/Ho7GZa3Klcc).
-2. [Summary](HogRider_summary.pdf) of HogRider agent.
-3. The code of HogRider Agent (all the '.py' files in this folder).
 
 ## How to run HogRider agent
 
@@ -20,18 +16,16 @@
 
 ## Approach 
 
-
-
 The approach mainly consists of two components: 
 (1) agent type recognition based on a generalized Bayesian update, with a hyperbolic tangent function to "squash" the update, and 
 (2) a novel Q-learning approach with 
-    (a) a warm start based on rule-based human reasoning ([(Watch our vedio on YouTube for more details.)](https://youtu.be/Ho7GZa3Klcc))
+    (a) a warm start based on rule-based human reasoning ([Watch our vedio on YouTube for more details.](https://youtu.be/Ho7GZa3Klcc))
     (b) a state-actoin abstraction, and 
     (c) active-epsilon-greedy exploration
     
 For details of our algorithm, please refer to the supplementary .pdf file, which is accepted as proceedings in AAAI-18 conference.
 
-    ![Overview of HogRider](HogRider_overview.png?raw=true "Overview of HogRider")
+   ![Overview of HogRider](HogRider_overview.png?raw=true "Overview of HogRider")
      
 
 
