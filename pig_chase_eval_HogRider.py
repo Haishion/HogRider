@@ -19,7 +19,7 @@ from common import ENV_AGENT_NAMES, ENV_TARGET_NAMES
 from evaluation import PigChaseEvaluator
 from environment import PigChaseTopDownStateBuilder, PigChaseSymbolicStateBuilder
 from malmopy.agent import RandomAgent
-from HogRiderAgent import HogRiderAgent
+from HogRiderQ import HogRiderQAgent
 from agent import FocusedAgent
 
 
@@ -28,7 +28,7 @@ if __name__ == '__main__':
     # Warn for Agent name !!!
 
     clients = [('127.0.0.1', 10000), ('127.0.0.1', 10001)]
-    agent = HogRiderAgent(ENV_AGENT_NAMES[1]) 
+    agent = HogRiderQAgent(ENV_AGENT_NAMES[1]) 
     
     # we need PigChaseSymbolicStateBuilder
     eval = PigChaseEvaluator(clients, agent, agent, PigChaseSymbolicStateBuilder()) 
